@@ -1,0 +1,16 @@
+<p>
+  {{homeTitle}}
+</p>
+<hr/>
+<h1> USING INPUT DECORATOR</h1>
+<ul *ngFor='let d of person' class="list-group">
+  <li class="list-group-item"><p>Name:{{d.name}}</p>
+  <br/>
+  <p>Age:{{d.age}}</li>
+</ul>
+<hr/>
+<div class="well">
+  <h1> USING OUTPUT DECORATOR</h1>
+  <hr/>
+  <button (click)="fireTalkEvent($event)">Hit ME!</button>
+</div>

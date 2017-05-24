@@ -1,0 +1,14 @@
+<div class="container">
+
+  <nav class="navbar navbar-light bg-inverse navbar-inverse">
+  <a class="navbar-brand">
+    <img src="./favicon.ico" width="10" height="10" class="d-inline-block align-left" alt="">
+    Angular 2 @Input & @Output Decorator
+  </a>
+  </nav>
+  <hr/>
+  <div class="well">
+    <app-home [person]= "person" (onTalk)="talk($event)" ></app-home>
+  </div>
+
+</div>
